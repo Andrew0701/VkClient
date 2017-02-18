@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivDialogsUserAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/placeholder"/>
+
+    <TextView
+        android:id="@+id/tvDialogsUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/ivDialogsUserAvatar"/>
+
+    <TextView
+        android:id="@+id/tvDialogsMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDialogsUserName"
+        android:layout_toEndOf="@+id/ivDialogsUserAvatar"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="12dp"/>
+</RelativeLayout>

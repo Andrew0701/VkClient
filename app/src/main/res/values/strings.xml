@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">VkClient</string>
+    <string name="action_settings">Settings</string>
+    <integer name="com_vk_sdk_AppId">5602398</integer>
+
+    <string name="activity_profile">Profile</string>
+    <string name="activity_friends">Friends</string>
+    <string name="activity_messages">Messages</string>
+    <string name="activity_wall">Wall</string>
+
+    <string-array name="vk_navigation">
+        <item>Friends</item>
+        <item>Messages</item>
+        <item>News</item>
+        <item>Statistic</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="vk_access_token">vk_access_token</string>
+
+    <string-array name="pages_friends">
+        <item>Friends</item>
+        <item>Online</item>
+    </string-array>
+
+    <string name="comments">Comments</string>
+    <string name="likes">Likes</string>
+
+    <string name="online">Online</string>
+    <string name="online_mobile">Online mobile</string>
+    <string name="offline">Offline</string>
+
+    <string name="error_download_data">Can not download data</string>
+    <string name="error_get_data">Can not get data</string>
+
+    <string name="button_message">Message</string>
+    <string name="button_wall">Wall</string>
+</resources>
